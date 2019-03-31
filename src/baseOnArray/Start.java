@@ -8,8 +8,13 @@ public class Start {
         Animals base = new Animals();
         base.getBase();
 
-        base.add(7, "Big Cat", "Russia", 15, 666666, 32, "11.12.04");
+        base.add("Big Cat", Size.BIG,"Russia", 15, 666666, 32, "11.12.04");
 
         base.printBase();
+        System.out.println();
+        base.find("cat");
+
+//        base.remove(5);
+//        base.printBase();
     }
 }
