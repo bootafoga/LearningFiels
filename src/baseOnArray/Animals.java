@@ -121,7 +121,6 @@ public class Animals{
             System.out.printf("%-10s", " || " + arrayOfAnimals.get(i).code);
             System.out.printf("%-10s", " || " + arrayOfAnimals.get(i).weight);
             System.out.printf("%-10s", " || " + arrayOfAnimals.get(i).dateOfBirth);
-        System.out.printf("%-10s", " || " + arrayOfAnimals.get(i).dateOfBirth);
             System.out.println();
     }
 
@@ -139,7 +138,6 @@ public class Animals{
     private Size size;
     private String country;
     private int age;
-    private int check;
     private int code;
     private float weight;
     private String dateOfBirth;
